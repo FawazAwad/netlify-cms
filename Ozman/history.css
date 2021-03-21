@@ -1,0 +1,83 @@
+/* image */
+.image{
+    padding-left: 0.70rem;
+    padding-top: 1rem;
+}
+/* End */
+
+
+/* menu */
+.menu-bar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+    background-size: cover;
+    background: rgb(0, 100, 0);
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar a{
+    text-decoration: none;
+    color:#fff;
+}
+.menu-bar a:hover{
+    color:#fff;
+    font-size: large;
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu-bar ul li:hover{
+    background-color:forestgreen;
+    border-radius: 8px;
+}
+/* Icons show with menu */
+.menu-bar i{
+    color: #fff;
+    font-size: 10px;
+   margin-right: 8px;
+}
+
+/*Sub Menu in Menu */
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background: rgb(0, 100, 0);
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: auto;
+}
+.menu-bar ul li:hover .sub-menu-1 li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff ;
+    /* background: transparent; */
+    border-radius: -1;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 li:last-child{
+    border-bottom: none ;
+}
+.menu-bar ul li:hover .sub-menu-1 li a:hover{
+    color: #b2ff00;
+}
+
+/* End */
+.mySlides{
+    width:fit-content;
+}
