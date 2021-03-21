@@ -1,0 +1,440 @@
+/*------------------------- import  Files ---------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+
+
+
+* {
+	box-sizing: border-box !important;
+	transition: ease all 0.5s;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: #666666;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;;
+	line-height: 1.80857;
+	font-weight: normal;
+	overflow-x: hidden;
+}
+
+a {
+	color: #1f1f1f;
+	text-decoration: none !important;
+	outline: none !important;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: 0;
+	font-weight: normal;
+	position: relative;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	line-height: normal;
+	color: #111111;
+	margin: 0
+}
+
+h1 {
+	font-size: 24px
+}
+
+h2 {
+	font-size: 22px
+}
+
+h3 {
+	font-size: 18px
+}
+
+h4 {
+	font-size: 16px
+}
+
+h5 {
+	font-size: 14px
+}
+
+h6 {
+	font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #212121;
+	text-decoration: none!important;
+	opacity: 1
+}
+
+button:focus {
+	outline: none;
+}
+
+ul,
+li,
+ol {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+p {
+	margin: 20px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+	outline: none !important;
+}
+
+.header_main{ 
+   width: 100%;
+   float: left;
+   background-image: url(../images/header.png);
+   height: auto;
+   padding-top: 20px;
+   padding-bottom: 40px; 
+}
+.logo{
+	text-align: center;
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 1rem;
+}
+/* شعار الشركة */
+.logo img{
+   padding-top: 1rem;
+   box-sizing :border-box;
+/* display : block; */
+float : none; 
+max-height: 120px;
+/* position : static; */
+z-index : auto;
+}
+
+/* به الرجوع للصفحة الرئيسية (خط تحتى) */
+.header{ 
+   width: 100%;
+   width: 100%;
+   float: left;
+   background-color: #3A63AF;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+
+.header_main{
+   width: 100%; 
+   float: left;
+   background-image: url(../fawaz/images/header.png); 
+   height: auto;
+   padding-bottom: 20px;
+}
+
+
+.titlepage-h1{
+   width: 100%;
+   float: left;
+   margin: 0 auto;
+   text-align: center;	
+}
+
+.bnner_title{
+	   font-size: 46pt;
+	   color: #ffffff;
+	   padding-top: 70px;
+	   font-family: 'Raleway', sans-serif;;}
+
+
+.long_text{
+   font-size: 14pt;
+   color: #ffffff;
+   padding-bottom: 30px;
+}
+.btn_main{
+   width: 40%;
+   display: block;
+	  margin: 0 auto;
+   text-align: center;
+}
+
+
+
+
+/* Nava Bar */
+.collapse {
+	width: 100%;
+} 
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 60px;
+    padding-left: 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.navbar-nav.mr-auto {
+    width: 100%;
+    margin: 0;
+	 display: block;
+	text-align: center;
+	float:right;
+}
+
+.navbar-nav.mr-auto li {
+	float: right;
+}
+
+.navbar-nav.mr-auto li.last {
+	float: right;
+}
+.last{
+	margin-right: 2rem;
+	padding-top: 1rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+		color: #23bbfb;
+}
+
+ .navbar-light .navbar-nav .nav-link:hover {
+		color: #23bbfb;
+}
+.navbar-nav a{
+	text-align: center;
+	padding-right: 70rem;
+} 
+
+
+
+
+/* عن إف فايف */
+
+.about_main{
+	width: 100%;
+	float: left;
+	margin-top: 130px;
+}
+
+
+/* services_main */
+
+.services_main{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	height: auto;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+
+
+/* عنوان رؤيتنا */
+
+.services_main{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	height: auto;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+
+/* عنوان رؤيتنا */
+.creative_taital{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	height: auto;
+	padding-bottom: 30px;
+	padding-top: 30px;
+    box-shadow: 0px 0px 10px 0px;
+    color: #e7e7e7;
+    margin-top: -110px;
+    margin-bottom: 50px;
+}
+
+
+/* عنوان رؤيتنا */
+.creative_text{
+	color: #000305;
+	font-size: 22pt;
+	text-align: center;	
+	border-bottom: 1px solid #000;
+	width: 10%;  /* الخط تحت رؤيتنا */
+    margin: 0 auto;
+    text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+/* اتصل بنا */
+.touch_text{
+	width: 27%;
+	 margin: 0 auto; 
+	text-align: center;
+	border-bottom: 1px solid #000;
+	color: white;
+	font-size: 22pt;
+	font-weight: bold;
+
+}
+
+
+
+.contact_main{
+	width: 100%;
+	float: right;
+	background-color: #3A63AF;
+	padding-top: 40px;
+}
+
+.contact_section_2{
+	background-color: white;
+	width: 100%;
+	margin: 0 auto;
+	display: block; 
+	padding-top: 40px;
+}
+
+
+.map_icon{
+	display: inline;
+	/* width: 100%; */
+	float: right;
+	margin-right: 1rem;
+	padding-right: 0.50rem;
+	padding-top: 4rem; 
+	padding-bottom: 2rem;
+	text-align: center;
+}
+.map_icon a{
+	padding-right: 1px;
+	color: #3A63AF;
+	font-size: 2rem;
+}
+.map_icon p{
+	font-size: 1rem;
+}
+
+.copyright{
+	width: 100%;
+	float: left;
+	background-color:#3A63AF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.copyright_text{
+	width: 100%;
+	float: left;
+	color: #fbfdfd;
+	text-align: center;
+	margin: 0px;
+}
+
+/* .email-text{
+	padding-right: 0.60rem;
+	padding-top: 0.1rem;
+	width: 70%;
+	float: left;
+	color: #ffffff;
+} */
+
+.map_icon p {
+    text-decoration: none;
+	color: #495057 ;
+	font-size: small;
+	padding-right: 0.60rem;
+
+}
+
+.email-text a:hover{
+	color: #ce4109;
+} 
+
+.copyright_text a:hover,
+.copyright_text a:focus {
+    color: #fff;
+}
+
+
+.button.navbar-toggler.collapsed { background: #fff;}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.about_main{
+	width: 100%;
+	float: right;
+	margin-top: 130px;
+}
+
+
+.contact_main{
+	width: 100%;
+	float: right;
+	padding-top: 40px;
+}
+
+
+
+.about_page .creative_taital {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #e7e7e7;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    box-shadow: none;
+}
+
